@@ -1,0 +1,41 @@
+{
+  "code": "AML-190",
+  "title": "AML/CFT in Practice: Case Study",
+  "summary": "Apply what you know: read a realistic counter scenario, name the red flags and write a clear internal suspicious activity report.",
+  "category": "Foundations",
+  "level": "BEGINNER",
+  "status": "PUBLISHED",
+  "requiredForNewStaff": false,
+  "certValidityMonths": 12,
+  "instructorName": "Dr. Amara Okafor",
+  "instructorTitle": "Head of AML/CFT compliance (sample)",
+  "modules": [
+    {
+      "title": "Course lessons",
+      "lessons": [
+        {
+          "title": "How to analyse a case",
+          "type": "READING",
+          "body": "## Four questions\n\n1. **What happened?** List the facts only, with dates and amounts.\n2. **What is unusual?** Compare with the customer's profile.\n3. **Which red flags apply?** Name them.\n4. **What do you do next?** Escalate, do not tip off.\n\nKeep facts apart from opinions.",
+          "videoUrl": null,
+          "durationMinutes": 5
+        },
+        {
+          "title": "Writing a clear internal report",
+          "type": "READING",
+          "body": "## Structure\n\nA good report has:\n\n1. **Introduction**: who and why you are writing.\n2. **Body**: the facts in order, with dates, amounts, branches and documents.\n3. **Conclusion**: the red flags and your recommendation.\n\nUse plain words. Do not accuse. State what you saw, not what you believe.",
+          "videoUrl": null,
+          "durationMinutes": 6
+        },
+        {
+          "title": "Assignment: write an internal report",
+          "type": "READING",
+          "body": "## The scenario\n\nOn Monday, a customer, Mr. A, exchanges AED 33,000 in cash at your branch for US dollars. On Wednesday he returns and exchanges AED 34,000. On Friday his cousin, Mr. B, who says he does not know Mr. A, sends AED 30,000 to a person in a third country. Mr. A is seen waiting outside during Mr. B's transaction. Mr. B cannot explain the purpose and says the money is \"a gift\".\n\n## Your task\n\nIn about 200 to 400 words, write an internal suspicious activity report to the Compliance Officer. State the facts, name the red flags and say what you did. Do not tell the customers about the report.\n\nYou can write your answer here, add a link to a document, or both.",
+          "videoUrl": null,
+          "durationMinutes": 30
+        }
+      ]
+    }
+  ],
+  "quiz": null
+}

@@ -1,0 +1,188 @@
+{
+  "code": "AWR-180",
+  "title": "Quarterly AML/CFT Awareness Test",
+  "summary": "A short refresher and test that every employee repeats each quarter. It keeps the basics fresh between annual courses: what to watch for, when to escalate and what never to say to a customer.",
+  "category": "Foundations",
+  "level": "BEGINNER",
+  "status": "PUBLISHED",
+  "requiredForNewStaff": false,
+  "certValidityMonths": 12,
+  "instructorName": "Dr. Amara Okafor",
+  "instructorTitle": "Head of AML/CFT compliance (sample)",
+  "modules": [
+    {
+      "title": "Course lessons",
+      "lessons": [
+        {
+          "title": "Five-minute refresher",
+          "type": "READING",
+          "body": "## Before you take the test\n\nThree habits protect you and the house:\n\n- **Know the customer.** Identify who they are and why they are transacting, every time.\n- **Notice the unusual.** Splitting amounts, rushed instructions, third parties waiting outside, documents that do not fit the story.\n- **Escalate, do not investigate.** Report a concern to the Compliance Officer straight away and never tell the customer you have done so.\n\nThe test draws a few questions at random, so you may see different ones each quarter.",
+          "videoUrl": null,
+          "durationMinutes": 5
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passPercent": 80,
+    "questionCount": 5,
+    "questions": [
+      {
+        "prompt": "A customer splits a large exchange into several smaller ones on the same day, each just under a reporting threshold. What is this called?",
+        "explanation": "Structuring is splitting transactions to stay under a threshold. Escalate it.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Layering",
+            "isCorrect": false
+          },
+          {
+            "label": "Structuring",
+            "isCorrect": true
+          },
+          {
+            "label": "Netting",
+            "isCorrect": false
+          },
+          {
+            "label": "Hedging",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "If you suspect a transaction is suspicious, you should tell the customer so they can explain.",
+        "explanation": "Never tip off the customer. Report to the Compliance Officer instead.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "prompt": "Who receives an internal report of a suspicion?",
+        "explanation": "Internal reports go to the Compliance Officer, who decides on any external report.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "The branch cashier on duty",
+            "isCorrect": false
+          },
+          {
+            "label": "The Compliance Officer",
+            "isCorrect": true
+          },
+          {
+            "label": "The customer",
+            "isCorrect": false
+          },
+          {
+            "label": "A colleague of your choice",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Which of these are common red flags?",
+        "explanation": "A regular, consistent customer is not in itself a red flag.",
+        "type": "MULTIPLE",
+        "options": [
+          {
+            "label": "Unwillingness to give identification",
+            "isCorrect": true
+          },
+          {
+            "label": "A story that changes when you ask questions",
+            "isCorrect": true
+          },
+          {
+            "label": "A regular customer making their usual exchange",
+            "isCorrect": false
+          },
+          {
+            "label": "A third party giving instructions from outside",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "prompt": "What do we call the crime of warning a customer that a report has been made about them? (two words)",
+        "explanation": "Tipping off is prohibited.",
+        "type": "SHORT_ANSWER",
+        "acceptedAnswers": [
+          "tipping off",
+          "tipping-off",
+          "tip off"
+        ],
+        "options": []
+      },
+      {
+        "prompt": "A customer who is in a hurry may skip identification this once.",
+        "explanation": "Identification is required every time, however busy the counter is.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "prompt": "You spot a possible sanctions match for a customer. What do you do first?",
+        "explanation": "Pause and escalate. Do not complete the transaction.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Complete the exchange, then check",
+            "isCorrect": false
+          },
+          {
+            "label": "Pause the transaction and escalate",
+            "isCorrect": true
+          },
+          {
+            "label": "Ask the customer to leave",
+            "isCorrect": false
+          },
+          {
+            "label": "Delete the record",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Why do we repeat this test every quarter?",
+        "explanation": "Regular reminders keep good habits strong between annual courses.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "To fill the training register",
+            "isCorrect": false
+          },
+          {
+            "label": "To keep the basics fresh and show staff stay alert",
+            "isCorrect": true
+          },
+          {
+            "label": "Because customers expect it",
+            "isCorrect": false
+          },
+          {
+            "label": "It is optional",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+}

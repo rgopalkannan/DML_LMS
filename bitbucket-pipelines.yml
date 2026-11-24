@@ -1,0 +1,47 @@
+# CI: the same gates as `npm run verify`, against a real PostgreSQL, then image builds on main.
+image: node:22
+
+definitions:
+  services:
+    postgres:
+      image: postgres:16
+      variables:
+        POSTGRES_USER: lms
+        POSTGRES_PASSWORD: lms_ci
+        POSTGRES_DB: lms_test
+  steps:
+    - step: &verify
+        name: Verify
+        services: [postgres]
+        caches: [node]
+        script:
+          - npm ci
+          - export DATABASE_URL=postgresql://lms:lms_ci@localhost:5432/lms_test?schema=public
+          - export DATABASE_URL_TEST=$DATABASE_URL
+          - npx prisma migrate deploy --schema server/prisma/schema.prisma
+          - npm run check:files
+          - npm run format:check
+          - npm run lint
+          - npm run typecheck
+          - npm test
+          - npm run test:integration
+          - npm run build
+          - npm audit --omit=dev --audit-level=high
+
+pipelines:
+  pull-requests:
+    '**':
+      - step: *verify
+  branches:
+    main:
+      - step: *verify
+      - step:
+          name: Build and push images to OCI Registry
+          services: [docker]
+          script:
+            # OCI_REGISTRY, OCI_NAMESPACE, OCI_USERNAME and OCI_AUTH_TOKEN are secured repository variables.
+            - echo "$OCI_AUTH_TOKEN" | docker login "$OCI_REGISTRY" -u "$OCI_USERNAME" --password-stdin
+            - docker build -f server/Dockerfile -t "$OCI_REGISTRY/$OCI_NAMESPACE/dml-lms-api:$BITBUCKET_COMMIT" .
+            - docker build -f client/Dockerfile -t "$OCI_REGISTRY/$OCI_NAMESPACE/dml-lms-web:$BITBUCKET_COMMIT" .
+            - docker push "$OCI_REGISTRY/$OCI_NAMESPACE/dml-lms-api:$BITBUCKET_COMMIT"
+            - docker push "$OCI_REGISTRY/$OCI_NAMESPACE/dml-lms-web:$BITBUCKET_COMMIT"

@@ -1,0 +1,303 @@
+{
+  "code": "AML-101",
+  "title": "AML/CFT Foundations for Exchange House Staff",
+  "summary": "What money laundering and terrorist financing are, how an exchange house can be misused, the rules that apply to Licensed Exchange Houses, and what each person must do. Required within 30 days of joining.",
+  "category": "Foundations",
+  "level": "BEGINNER",
+  "status": "PUBLISHED",
+  "requiredForNewStaff": true,
+  "certValidityMonths": 12,
+  "instructorName": "Dr. Amara Okafor",
+  "instructorTitle": "Head of AML/CFT compliance (sample)",
+  "modules": [
+    {
+      "title": "Course lessons",
+      "lessons": [
+        {
+          "title": "What money laundering and terrorist financing are",
+          "type": "READING",
+          "body": "## Turning dirty money into clean money\n\n**Money laundering** hides the criminal origin of money so it can be used freely. It is usually described in three stages:\n\n1. **Placement**: criminal cash enters the financial system, for example by exchanging it for another currency.\n2. **Layering**: the money is moved around, often through many small or cross-border transfers, to hide its trail.\n3. **Integration**: the money returns to the person as apparently legitimate funds.\n\n**Terrorist financing** is different: the money can come from legal sources, and the amounts can be small. What matters is where it is going.\n\nExchange houses handle cash and cross-border transfers every day. That makes them an attractive target for both.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 7
+        },
+        {
+          "title": "Video: How money laundering works",
+          "type": "VIDEO",
+          "body": "## Before you watch\n\nA short animated explanation of how criminal money is cleaned. Watch it after the first reading, then connect what you see to the three stages.\n\n## Look out for\n\n- How the money first gets into the financial system\n- Why moving money through many steps hides where it came from\n- Where a business that handles cash could be used without knowing\n\n## After watching\n\nAnswer the short quiz to move on.\n\n*This video is made by a third party and opens on YouTube. It is not produced by Data Mine Labs or the CBUAE, and it may describe rules from other countries. Where it differs from the CBUAE Rulebook or your own policy manual, follow those.*",
+          "videoUrl": "https://www.youtube.com/watch?v=257wV-AbKaE",
+          "durationMinutes": 6
+        },
+        {
+          "title": "How money moves through an exchange house",
+          "type": "READING",
+          "body": "## Where the risks sit\n\nA Licensed Exchange House (LEH) mainly offers **currency exchange** and **money transfer (remittance)**. The risk is in how these are used:\n\n- Large or frequent **cash** transactions with no clear reason.\n- Splitting one amount into many small ones to stay under limits (**structuring**).\n- Transfers on behalf of **someone else** (third parties).\n- Money sent to or received from **higher-risk countries**.\n- Customers who give **incomplete or inconsistent** information.\n\nThe Central Bank (CBUAE) expects each LEH to assess these risks and apply stronger checks where the risk is higher. This is called the **risk-based approach**.",
+          "videoUrl": null,
+          "durationMinutes": 7
+        },
+        {
+          "title": "The rules that apply to you",
+          "type": "READING",
+          "body": "## Law, regulator and reporting unit\n\n- **The AML/CFT law**: the federal law that makes money laundering, terrorist financing and proliferation financing crimes. The current law is Federal Decree-Law No. 10 of 2025, in force since 14 October 2025, replacing Federal Decree-Law No. 20 of 2018. Your Compliance Officer will confirm which provisions apply.\n- **The CBUAE Rulebook**: Section 4, *AML/CFT Program for Licensed Exchange Houses*, sets out what every LEH must do.\n- **The Financial Intelligence Unit (FIU)**: receives suspicious transaction reports through the **goAML** portal.\n- **Targeted financial sanctions**: lists of persons and entities whose funds must be frozen without delay.\n\nEvery LEH must have a **written, risk-based AML/CFT program** that is proportionate to its size and business.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 8
+        },
+        {
+          "title": "Your role: three lines of defence",
+          "type": "READING",
+          "body": "## Everyone has a part\n\n1. **Frontline staff** know the customer, apply the checks and spot red flags.\n2. **The Compliance Officer** (with an Alternate Compliance Officer) runs the program day to day, reviews alerts and reports to the FIU. The Manager in Charge and the Board or Owners give oversight.\n3. **Internal and external audit** check independently that the program works.\n\nThe rules apply to **all employees**, including the Manager in Charge, functional heads, Board Directors and Owners.\n\nAn LEH must also manage **employee risk**: background checks at hiring and attention to warning signs such as unexplained wealth or an employee linked to unusually many transactions.",
+          "videoUrl": null,
+          "durationMinutes": 7
+        },
+        {
+          "title": "Training, records and consequences",
+          "type": "READING",
+          "body": "## What the Rulebook requires of training\n\n- New joiners must complete AML/CFT training **within 30 calendar days** of starting.\n- A new employee must **not serve customers independently** until they have passed this onboarding training.\n- Frontline staff need a **refresher at least once a year**, and again after changes in law, CBUAE notices or company policy.\n- The LEH keeps a **training register** with dates, durations and assessment scores, and must be able to show it to CBUAE examiners.\n- Records must be kept for **at least five years**.\n\nFailing to follow the rules can bring criminal liability for individuals and sanctions for the LEH.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 6
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passPercent": 70,
+    "questionCount": 8,
+    "questions": [
+      {
+        "prompt": "Within how many days of joining must new staff complete AML/CFT training?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "7",
+            "isCorrect": false
+          },
+          {
+            "label": "14",
+            "isCorrect": false
+          },
+          {
+            "label": "30",
+            "isCorrect": true
+          },
+          {
+            "label": "90",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Which is NOT one of the three stages of money laundering?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Placement",
+            "isCorrect": false
+          },
+          {
+            "label": "Layering",
+            "isCorrect": false
+          },
+          {
+            "label": "Integration",
+            "isCorrect": false
+          },
+          {
+            "label": "Verification",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "prompt": "A new employee may serve customers alone while still waiting for their AML/CFT training.",
+        "explanation": "They may not serve customers independently until they pass onboarding training.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "prompt": "How often must frontline staff receive refresher training, at a minimum?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Every month",
+            "isCorrect": false
+          },
+          {
+            "label": "Every six months",
+            "isCorrect": false
+          },
+          {
+            "label": "At least annually",
+            "isCorrect": true
+          },
+          {
+            "label": "Only when they ask",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Whom do the AML/CFT training rules cover?",
+        "explanation": null,
+        "type": "MULTIPLE",
+        "options": [
+          {
+            "label": "Counter staff",
+            "isCorrect": true
+          },
+          {
+            "label": "Manager in Charge",
+            "isCorrect": true
+          },
+          {
+            "label": "Board Directors and Owners",
+            "isCorrect": true
+          },
+          {
+            "label": "Only the Compliance Officer",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Where are suspicious transaction reports filed?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "The goAML portal of the FIU",
+            "isCorrect": true
+          },
+          {
+            "label": "A branch notice board",
+            "isCorrect": false
+          },
+          {
+            "label": "The customer",
+            "isCorrect": false
+          },
+          {
+            "label": "A local police desk only",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Terrorist financing can involve small amounts from legal sources.",
+        "explanation": null,
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": true
+          },
+          {
+            "label": "False",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "For how long must AML/CFT records be kept, at a minimum?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "One year",
+            "isCorrect": false
+          },
+          {
+            "label": "Two years",
+            "isCorrect": false
+          },
+          {
+            "label": "Five years",
+            "isCorrect": true
+          },
+          {
+            "label": "Until the customer asks",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Suspicious transaction reports are filed on a portal. What is it called?",
+        "explanation": "STRs and SARs are filed through goAML.",
+        "type": "SHORT_ANSWER",
+        "acceptedAnswers": [
+          "goAML",
+          "go AML",
+          "goaml portal"
+        ],
+        "options": []
+      },
+      {
+        "prompt": "Which authority publishes the Rulebook that Licensed Exchange Houses follow? (abbreviation)",
+        "explanation": "The Central Bank of the UAE (CBUAE).",
+        "type": "SHORT_ANSWER",
+        "acceptedAnswers": [
+          "CBUAE",
+          "Central Bank",
+          "Central Bank of the UAE"
+        ],
+        "options": []
+      },
+      {
+        "prompt": "Which of these are risk areas for an exchange house?",
+        "explanation": "Asking for opening hours is not a risk sign.",
+        "type": "MULTIPLE",
+        "options": [
+          {
+            "label": "Large cash transactions with no clear reason",
+            "isCorrect": true
+          },
+          {
+            "label": "Splitting one amount into many small ones",
+            "isCorrect": true
+          },
+          {
+            "label": "Transfers on behalf of someone else",
+            "isCorrect": true
+          },
+          {
+            "label": "A customer asking for the opening hours",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "A customer asks you to split one large exchange into several smaller ones so it \"looks normal\". This is a sign of:",
+        "explanation": "Splitting amounts to avoid checks is structuring.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Structuring",
+            "isCorrect": true
+          },
+          {
+            "label": "Good budgeting",
+            "isCorrect": false
+          },
+          {
+            "label": "Hedging",
+            "isCorrect": false
+          },
+          {
+            "label": "Placement of legal funds",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+}
