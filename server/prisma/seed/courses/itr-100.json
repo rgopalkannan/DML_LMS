@@ -1,0 +1,587 @@
+{
+  "code": "ITR-100",
+  "title": "IT Risk, Cyber & Operational Resilience for UAE Exchange Houses",
+  "summary": "Eight units on governance, operational resilience, ICT and cyber controls, incidents, third parties, change management and authentication, ending in a final assessment.",
+  "category": "Technology risk",
+  "level": "INTERMEDIATE",
+  "status": "PUBLISHED",
+  "requiredForNewStaff": false,
+  "certValidityMonths": 12,
+  "instructorName": null,
+  "instructorTitle": null,
+  "modules": [
+    {
+      "title": "Course lessons",
+      "lessons": [
+        {
+          "title": "IT Risk, Cyber & Operational Resilience for UAE Exchange Houses",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "How this course works",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Learning objectives",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Why this matters now",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "The regulatory map",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2.5
+        },
+        {
+          "title": "Meet Meridian Exchange (fictional)",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Unit 1",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 0.5
+        },
+        {
+          "title": "Who is in scope?",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Key terms",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "The Board’s role",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Senior management and IT leadership",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Three lines of defence — applied to IT",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Knowledge check · Unit 1",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Unit 2",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 0.5
+        },
+        {
+          "title": "From managing risk to proving resilience",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Critical Operations — the minimum",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Mapping a Critical Operation",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Tolerance for disruption",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Activity · Map Meridian’s outward remittance",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 3
+        },
+        {
+          "title": "Knowledge check · Unit 2",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Unit 3",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 0.5
+        },
+        {
+          "title": "The ICT & cyber risk framework",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "ICT & cyber policy — minimum contents",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Access & identity — the exchange house baseline",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2.5
+        },
+        {
+          "title": "Email, endpoints & software",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Data residency & protection",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Backup & disaster recovery",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Testing & independent assurance",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Keeping systems current",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "People: security awareness & training",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Physical security that touches IT",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Knowledge check · Unit 3",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 3
+        },
+        {
+          "title": "Unit 4",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 0.5
+        },
+        {
+          "title": "The incident lifecycle",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "The CBUAE notification clock",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2.5
+        },
+        {
+          "title": "Business continuity & disaster recovery plans",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "RTO, RPO — and testing",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Scenario · Payday outage at Meridian (1/3)",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2.5
+        },
+        {
+          "title": "Scenario · Payday outage at Meridian (2/3)",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2.5
+        },
+        {
+          "title": "Scenario · Payday outage at Meridian (3/3)",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2.5
+        },
+        {
+          "title": "Knowledge check · Unit 4",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Unit 5",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 0.5
+        },
+        {
+          "title": "Third-party risk — the principles",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Contract must-haves",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Cloud — getting it right",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2.5
+        },
+        {
+          "title": "Exit plans & substitutability",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Activity · Review Meridian’s SaaS contract",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2.5
+        },
+        {
+          "title": "Knowledge check · Unit 5",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Unit 6",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 0.5
+        },
+        {
+          "title": "Change control — every change",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Material changes to Critical Operations",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Case · Planning Meridian’s core system migration",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Knowledge check · Unit 6",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Unit 7",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 0.5
+        },
+        {
+          "title": "Enabling technologies — principles & APIs",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Biometrics & strong authentication",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Notice 2025/3057 — authentication & fraud",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "AI — governance & control",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2.5
+        },
+        {
+          "title": "Human oversight & the customer",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Activity · Classify Meridian’s AI use cases",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2.5
+        },
+        {
+          "title": "Knowledge check · Unit 7",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Unit 8",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 0.5
+        },
+        {
+          "title": "Key numbers to remember",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 2
+        },
+        {
+          "title": "Your 30-day action plan",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1.5
+        },
+        {
+          "title": "Final assessment",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 1 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 2 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 3 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 4 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 5 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 6 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 7 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 8 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 9 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 10 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 11 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 12 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 13 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 14 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Final assessment · Question 15 of 15",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        },
+        {
+          "title": "Course complete",
+          "type": "READING",
+          "body": "*Slide outline from the course design. Add the slide content in Studio.*",
+          "videoUrl": null,
+          "durationMinutes": 1
+        }
+      ]
+    }
+  ],
+  "quiz": null
+}

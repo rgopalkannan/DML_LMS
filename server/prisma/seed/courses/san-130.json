@@ -1,0 +1,251 @@
+{
+  "code": "SAN-130",
+  "title": "Sanctions Screening and Targeted Financial Sanctions",
+  "summary": "Screen customers and counterparties against sanctions and PEP lists, handle matches, and freeze without delay as the UAE targeted financial sanctions regime requires.",
+  "category": "Sanctions",
+  "level": "INTERMEDIATE",
+  "status": "PUBLISHED",
+  "requiredForNewStaff": true,
+  "certValidityMonths": 12,
+  "instructorName": "Marcus Bell",
+  "instructorTitle": "Sanctions and screening specialist (sample)",
+  "modules": [
+    {
+      "title": "Course lessons",
+      "lessons": [
+        {
+          "title": "Why sanctions screening matters",
+          "type": "READING",
+          "body": "## Funds that must not move\n\n**Targeted financial sanctions (TFS)** require that the funds and assets of listed persons and entities are **frozen without delay**, and that no funds are made available to them.\n\nThe lists include persons designated by the **UN Security Council** and those on the **UAE local terrorist list**. TFS cover terrorism and the **financing of weapons proliferation**.\n\nFor an exchange house the risk is direct: a transfer sent to or from a listed party is a breach, even if the amount is small. Screening and freezing must happen **without delay**.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 6
+        },
+        {
+          "title": "Screening in practice",
+          "type": "READING",
+          "body": "## What and when to screen\n\nScreen:\n\n- The **customer**, the **beneficial owners** and authorised persons.\n- The **beneficiary** and the **sender** of a transfer, and any counterparty.\n- At **onboarding**, before **each transaction**, and again whenever the lists are **updated**.\n\nA system often returns **possible matches**. Compare name, date of birth, nationality and identity number to decide whether it is a **true match** or a **false positive**. Never clear a hit by guessing: if you are unsure, **escalate to the Compliance Officer** and do not process the transaction.",
+          "videoUrl": null,
+          "durationMinutes": 8
+        },
+        {
+          "title": "Freezing without delay and reporting",
+          "type": "READING",
+          "body": "## A confirmed match\n\nWhen a match is **confirmed**:\n\n1. **Do not process** the transaction and do not release any funds.\n2. **Freeze** the funds or assets without delay.\n3. **Report** immediately through the channels set by the Compliance Officer, including the competent authorities.\n4. **Do not tell the customer** more than your procedure allows.\n\nEvery LEH must register with the FIU's **Integrated Enquiries Management System (IEMS)** to receive and answer information requests. The legal basis is the TFS framework of Cabinet Decision No. 74 of 2020 and the guidance of the Executive Office for Control and Non-Proliferation.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 8
+        },
+        {
+          "title": "PEPs and adverse media",
+          "type": "READING",
+          "body": "## People with influence\n\nA **politically exposed person (PEP)** holds, or has held, a prominent public role. Their **family members** and **close associates** are treated the same way, as is any company whose beneficial owner is a PEP.\n\nBeing a PEP is not a crime, but it carries higher corruption risk. Apply **EDD** at any transaction value: source of funds, reason for the transaction and senior-level approval under your procedures.\n\n**Adverse media** means credible reports linking a customer to crime. A material adverse media hit can justify a suspicious activity report.",
+          "videoUrl": null,
+          "durationMinutes": 6
+        },
+        {
+          "title": "Video: FATF Recommendation 12 on PEPs",
+          "type": "VIDEO",
+          "body": "## Before you watch\n\nRecommendation 12 of the Financial Action Task Force sets the international standard for politically exposed persons. Watch it after the PEP reading and compare it with the steps your exchange house takes.\n\n## Look out for\n\n- Who counts as a PEP, and why family and close associates matter\n- Why a PEP is higher risk but not automatically a criminal\n- The extra steps taken before dealing with a PEP\n\n## After watching\n\nAnswer the short quiz to move on.\n\n*This video is made by a third party and opens on YouTube. It is not produced by Data Mine Labs or the CBUAE, and it may describe rules from other countries. Where it differs from the CBUAE Rulebook or your own policy manual, follow those.*",
+          "videoUrl": "https://www.youtube.com/watch?v=aI3xQc6otfk",
+          "durationMinutes": 7
+        },
+        {
+          "title": "Keeping a trail",
+          "type": "READING",
+          "body": "## Prove what you did\n\nFor every alert, keep a record of:\n\n- What was screened, against which lists and when.\n- Who reviewed it and why it was cleared or escalated.\n- Any freeze, report or decision.\n\nThese records must be kept for **at least five years** and shown to the CBUAE on request. An alert that was cleared without a written reason is a finding waiting to happen.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 5
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passPercent": 70,
+    "questionCount": 8,
+    "questions": [
+      {
+        "prompt": "What must happen to the funds of a confirmed sanctions match?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Be frozen without delay",
+            "isCorrect": true
+          },
+          {
+            "label": "Be returned to the customer",
+            "isCorrect": false
+          },
+          {
+            "label": "Be transferred to a different bank",
+            "isCorrect": false
+          },
+          {
+            "label": "Wait for the next audit",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Which body's system must LEHs register with to receive information requests?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "IEMS of the FIU",
+            "isCorrect": true
+          },
+          {
+            "label": "A trade association",
+            "isCorrect": false
+          },
+          {
+            "label": "The customer's bank",
+            "isCorrect": false
+          },
+          {
+            "label": "The municipality",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Who should be screened?",
+        "explanation": null,
+        "type": "MULTIPLE",
+        "options": [
+          {
+            "label": "The customer",
+            "isCorrect": true
+          },
+          {
+            "label": "The beneficiary of a transfer",
+            "isCorrect": true
+          },
+          {
+            "label": "The beneficial owners of a company",
+            "isCorrect": true
+          },
+          {
+            "label": "Only the cashier",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "A false positive is a possible match that turns out not to be the listed person.",
+        "explanation": null,
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": true
+          },
+          {
+            "label": "False",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "When are lists re-checked against existing customers?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Whenever the lists are updated",
+            "isCorrect": true
+          },
+          {
+            "label": "Never",
+            "isCorrect": false
+          },
+          {
+            "label": "Once in five years",
+            "isCorrect": false
+          },
+          {
+            "label": "Only on complaint",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Being a PEP automatically means the person is a criminal.",
+        "explanation": "A PEP is higher risk, not guilty.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "prompt": "Which should you record for every cleared alert?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "A written reason and who reviewed it",
+            "isCorrect": true
+          },
+          {
+            "label": "Nothing, if it was cleared",
+            "isCorrect": false
+          },
+          {
+            "label": "The customer's phone",
+            "isCorrect": false
+          },
+          {
+            "label": "The screen colour",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Freezing must happen without delay once a match is confirmed.",
+        "explanation": null,
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": true
+          },
+          {
+            "label": "False",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Complete the rule: confirmed matches must be frozen without ____. (one word)",
+        "explanation": "Freeze without delay.",
+        "type": "SHORT_ANSWER",
+        "acceptedAnswers": [
+          "delay"
+        ],
+        "options": []
+      },
+      {
+        "prompt": "Screening is only needed when a customer is first onboarded.",
+        "explanation": "Existing customers are re-checked when lists change.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  }
+}

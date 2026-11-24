@@ -1,0 +1,216 @@
+// LMS schema. Hierarchy: Course -> CourseModule -> Lesson; each course has one final Quiz.
+// Assignment (Enrollment), progress (LessonProgress), assessment (QuizAttempt) and
+// certification (Certificate) are separate tables. Change it only through migrations.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  INSTRUCTOR
+  LEARNER
+}
+
+enum CourseStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum CourseLevel {
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum LessonType {
+  READING
+  VIDEO
+}
+
+enum QuestionType {
+  SINGLE
+  MULTIPLE
+  TRUE_FALSE
+  SHORT_ANSWER
+}
+
+enum EnrollmentStatus {
+  ENROLLED
+  IN_PROGRESS
+  COMPLETED
+}
+
+model User {
+  id           String       @id @default(uuid()) @db.Uuid
+  email        String       @unique @db.VarChar(254)
+  name         String       @db.VarChar(120)
+  passwordHash String       @db.VarChar(100)
+  role         Role         @default(LEARNER)
+  isActive     Boolean      @default(true)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+  enrollments  Enrollment[]
+  teaches      Course[]     @relation("CourseInstructor")
+  auditEvents  AuditEvent[]
+
+  @@index([role])
+}
+
+model Course {
+  id                  String         @id @default(uuid()) @db.Uuid
+  code                String         @unique @db.VarChar(20)
+  title               String         @db.VarChar(160)
+  summary             String         @db.VarChar(1000)
+  category            String         @db.VarChar(60)
+  level               CourseLevel    @default(BEGINNER)
+  status              CourseStatus   @default(DRAFT)
+  requiredForNewStaff Boolean        @default(false)
+  certValidityMonths  Int            @default(12)
+  instructorId        String?        @db.Uuid
+  instructor          User?          @relation("CourseInstructor", fields: [instructorId], references: [id], onDelete: SetNull)
+  createdAt           DateTime       @default(now())
+  updatedAt           DateTime       @updatedAt
+  modules             CourseModule[]
+  quiz                Quiz?
+  enrollments         Enrollment[]
+
+  @@index([status])
+}
+
+model CourseModule {
+  id       String   @id @default(uuid()) @db.Uuid
+  courseId String   @db.Uuid
+  course   Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  title    String   @db.VarChar(160)
+  position Int
+  lessons  Lesson[]
+
+  @@unique([courseId, position])
+}
+
+model Lesson {
+  id              String           @id @default(uuid()) @db.Uuid
+  moduleId        String           @db.Uuid
+  module          CourseModule     @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  title           String           @db.VarChar(160)
+  type            LessonType       @default(READING)
+  body            String           @db.Text
+  videoUrl        String?          @db.VarChar(500)
+  durationMinutes Int              @default(5)
+  position        Int
+  progress        LessonProgress[]
+
+  @@unique([moduleId, position])
+}
+
+model Quiz {
+  id            String        @id @default(uuid()) @db.Uuid
+  courseId      String        @unique @db.Uuid
+  course        Course        @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  passPercent   Int           @default(70)
+  questionCount Int           @default(8)
+  questions     Question[]
+  attempts      QuizAttempt[]
+}
+
+model Question {
+  id              String           @id @default(uuid()) @db.Uuid
+  quizId          String           @db.Uuid
+  quiz            Quiz             @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  type            QuestionType
+  prompt          String           @db.VarChar(1000)
+  explanation     String?          @db.VarChar(1000)
+  acceptedAnswers String[]         @default([])
+  position        Int
+  options         QuestionOption[]
+
+  @@unique([quizId, position])
+}
+
+model QuestionOption {
+  id         String   @id @default(uuid()) @db.Uuid
+  questionId String   @db.Uuid
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  label      String   @db.VarChar(500)
+  isCorrect  Boolean  @default(false)
+  position   Int
+
+  @@unique([questionId, position])
+}
+
+model Enrollment {
+  id          String           @id @default(uuid()) @db.Uuid
+  userId      String           @db.Uuid
+  user        User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  courseId    String           @db.Uuid
+  course      Course           @relation(fields: [courseId], references: [id], onDelete: Restrict)
+  status      EnrollmentStatus @default(ENROLLED)
+  enrolledAt  DateTime         @default(now())
+  completedAt DateTime?
+  lessons     LessonProgress[]
+  attempts    QuizAttempt[]
+  certificate Certificate?
+
+  @@unique([userId, courseId])
+  @@index([courseId, status])
+}
+
+model LessonProgress {
+  id           String     @id @default(uuid()) @db.Uuid
+  enrollmentId String     @db.Uuid
+  enrollment   Enrollment @relation(fields: [enrollmentId], references: [id], onDelete: Cascade)
+  lessonId     String     @db.Uuid
+  lesson       Lesson     @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  completedAt  DateTime   @default(now())
+
+  @@unique([enrollmentId, lessonId])
+}
+
+model QuizAttempt {
+  id             String     @id @default(uuid()) @db.Uuid
+  enrollmentId   String     @db.Uuid
+  enrollment     Enrollment @relation(fields: [enrollmentId], references: [id], onDelete: Cascade)
+  quizId         String     @db.Uuid
+  quiz           Quiz       @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  // Client-generated key so a double-submitted attempt is stored once.
+  idempotencyKey String     @unique @db.VarChar(64)
+  questionIds    String[]
+  answers        Json
+  score          Int
+  total          Int
+  percent        Int
+  passed         Boolean
+  submittedAt    DateTime   @default(now())
+
+  @@index([enrollmentId])
+}
+
+model Certificate {
+  id           String     @id @default(uuid()) @db.Uuid
+  enrollmentId String     @unique @db.Uuid
+  enrollment   Enrollment @relation(fields: [enrollmentId], references: [id], onDelete: Cascade)
+  serial       String     @unique @db.VarChar(32)
+  scorePercent Int
+  issuedAt     DateTime   @default(now())
+  expiresAt    DateTime?
+}
+
+model AuditEvent {
+  id        String   @id @default(uuid()) @db.Uuid
+  actorId   String?  @db.Uuid
+  actor     User?    @relation(fields: [actorId], references: [id], onDelete: SetNull)
+  action    String   @db.VarChar(60)
+  entity    String   @db.VarChar(40)
+  entityId  String?  @db.VarChar(64)
+  createdAt DateTime @default(now())
+
+  @@index([entity, entityId])
+  @@index([createdAt])
+}

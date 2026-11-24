@@ -1,0 +1,267 @@
+{
+  "code": "RF-140",
+  "title": "Red Flags and Suspicious Transaction Reporting",
+  "summary": "Spot red flags at the counter and in the data, escalate correctly, file a clear report through goAML, and never tip off the customer.",
+  "category": "Reporting",
+  "level": "INTERMEDIATE",
+  "status": "PUBLISHED",
+  "requiredForNewStaff": true,
+  "certValidityMonths": 12,
+  "instructorName": "Priya Raman",
+  "instructorTitle": "Transaction monitoring analyst (sample)",
+  "modules": [
+    {
+      "title": "Course lessons",
+      "lessons": [
+        {
+          "title": "What a red flag is",
+          "type": "READING",
+          "body": "## A reason to look closer\n\nA **red flag** is a sign that a transaction or customer may be linked to crime. One red flag is not proof. It means: **ask, check, escalate**.\n\nThink in three groups:\n\n- **The customer**: nervous, evasive, refuses to give details, offers a bribe, has false documents.\n- **The transaction**: no clear purpose, much larger than the customer's profile, unusual speed or pattern.\n- **The destination or source**: higher-risk countries, unrelated third parties.\n\nKnowing your customer is what makes a red flag visible.",
+          "videoUrl": null,
+          "durationMinutes": 6
+        },
+        {
+          "title": "Red flags in exchange houses",
+          "type": "READING",
+          "body": "## Typical patterns\n\nThe CBUAE lists indicators for exchange houses, including:\n\n- **Structuring**: transactions kept just under a CDD threshold, or the same customer using several branches.\n- **Third parties**: one person pays and another collects, or the sender has no link to the beneficiary.\n- Transfers to **higher-risk jurisdictions**.\n- Transfers to **illegal online gambling** sites or **lottery-prize** payments.\n- Transfers to people the customer **only met online**.\n- Incoming transfers **missing** the sender or beneficiary information that should come with them.\n\nCompare each case with what you know about the customer. The same transaction can be normal for one customer and suspicious for another.",
+          "videoUrl": null,
+          "durationMinutes": 9
+        },
+        {
+          "title": "Video: Structuring and smurfing",
+          "type": "VIDEO",
+          "body": "## Before you watch\n\nStructuring, also called smurfing, is one of the most common red flags in an exchange house. Watch how it works, then think about what you would see at your counter.\n\n## Look out for\n\n- How an amount is split to stay under a limit\n- Who the \"smurfs\" are and why several people may be used\n- What pattern across days or branches gives it away\n\n## After watching\n\nAnswer the short quiz to move on.\n\n*This video is made by a third party and opens on YouTube. It is not produced by Data Mine Labs or the CBUAE, and it may describe rules from other countries. Where it differs from the CBUAE Rulebook or your own policy manual, follow those.*",
+          "videoUrl": "https://www.youtube.com/watch?v=pXdxSlgJLu4",
+          "durationMinutes": 6
+        },
+        {
+          "title": "Escalating and filing a report",
+          "type": "READING",
+          "body": "## From the counter to the FIU\n\n1. **Stop and note** what happened: who, what, when, where, why it looks unusual.\n2. **Escalate** to the Compliance Officer straight away, using your internal form. Do not decide alone to ignore it.\n3. The Compliance Officer investigates and, if there are **reasonable grounds to suspect**, files a **suspicious transaction report (STR)** or, if no transaction is involved, a **suspicious activity report (SAR)** through **goAML**.\n\nThere is **no minimum amount**. Attempted and refused transactions are reported too. Reports must be made **without delay**. A good narrative answers who, what, when, where, why and how.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 9
+        },
+        {
+          "title": "Video: How to submit an STR or SAR on goAML",
+          "type": "VIDEO",
+          "body": "## Before you watch\n\nA walkthrough of submitting a suspicious transaction report or suspicious activity report on the goAML portal. Your Compliance Officer files the report, but you should know what goes into it.\n\n## Look out for\n\n- What information the report asks for\n- The difference between an STR and a SAR\n- Why the narrative should explain the suspicion clearly\n\n## After watching\n\nAnswer the short quiz to move on.\n\n*This video is made by a third party and opens on YouTube. It is not produced by Data Mine Labs or the CBUAE, and it may describe rules from other countries. Where it differs from the CBUAE Rulebook or your own policy manual, follow those.*",
+          "videoUrl": "https://www.youtube.com/watch?v=WcpfhIjmcoc",
+          "durationMinutes": 8
+        },
+        {
+          "title": "Tipping off and protection",
+          "type": "READING",
+          "body": "## Keep it confidential\n\n**Tipping off** means telling a customer or anyone else that a transaction is being monitored, investigated or reported. It is a **federal crime**.\n\n- Never say \"I will report you\" or \"the system flagged you\".\n- Give a neutral reason, such as \"I need to complete some checks\".\n- Do not discuss a report with colleagues who do not need to know.\n\nStaff who report **in good faith** are protected from liability, even if the employer did not want the report. Sharing inside the group for AML purposes is allowed by the Compliance Officer. When a customer relationship is ended, consider the risk of tipping off.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 7
+        },
+        {
+          "title": "Handling a live situation",
+          "type": "READING",
+          "body": "## At the counter\n\nA customer asks to send AED 52,000 in four transfers to four different people abroad, paid in cash. Their ID details differ slightly from last month.\n\nWhat to do:\n\n1. Stay calm and polite. **Do not accuse.**\n2. Ask about the purpose and the relationship to each beneficiary, as your procedure requires.\n3. **Do not process** the transfers if you cannot understand the purpose.\n4. Write down what was said.\n5. Escalate to the Compliance Officer **now**.\n6. Never tell the customer a report may follow.",
+          "videoUrl": null,
+          "durationMinutes": 7
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passPercent": 70,
+    "questionCount": 8,
+    "questions": [
+      {
+        "prompt": "Is there a minimum amount below which a suspicion need not be reported?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Yes, AED 3,500",
+            "isCorrect": false
+          },
+          {
+            "label": "Yes, AED 55,000",
+            "isCorrect": false
+          },
+          {
+            "label": "No, there is no minimum",
+            "isCorrect": true
+          },
+          {
+            "label": "Only for cash",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Which report is used when no transaction is involved?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "STR",
+            "isCorrect": false
+          },
+          {
+            "label": "SAR",
+            "isCorrect": true
+          },
+          {
+            "label": "KYC form",
+            "isCorrect": false
+          },
+          {
+            "label": "Invoice",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "A refused or attempted transaction can still be reported.",
+        "explanation": null,
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": true
+          },
+          {
+            "label": "False",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "What is tipping off?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Telling a customer a report or investigation exists",
+            "isCorrect": true
+          },
+          {
+            "label": "Giving a customer a receipt",
+            "isCorrect": false
+          },
+          {
+            "label": "Escalating internally",
+            "isCorrect": false
+          },
+          {
+            "label": "Filing in goAML",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Which are typical exchange-house red flags?",
+        "explanation": null,
+        "type": "MULTIPLE",
+        "options": [
+          {
+            "label": "Structuring below thresholds",
+            "isCorrect": true
+          },
+          {
+            "label": "Transfers to a person met only online",
+            "isCorrect": true
+          },
+          {
+            "label": "Missing sender information",
+            "isCorrect": true
+          },
+          {
+            "label": "A regular customer in line with their profile",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Who should you tell first about a suspicion?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "The Compliance Officer",
+            "isCorrect": true
+          },
+          {
+            "label": "The customer",
+            "isCorrect": false
+          },
+          {
+            "label": "A friend",
+            "isCorrect": false
+          },
+          {
+            "label": "No one",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Staff who report in good faith are protected from liability.",
+        "explanation": null,
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": true
+          },
+          {
+            "label": "False",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "A good report narrative covers:",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Who, what, when, where, why and how",
+            "isCorrect": true
+          },
+          {
+            "label": "Only the amount",
+            "isCorrect": false
+          },
+          {
+            "label": "Only the name",
+            "isCorrect": false
+          },
+          {
+            "label": "A guess about guilt",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Where are STRs and SARs filed? (name the portal)",
+        "explanation": "goAML.",
+        "type": "SHORT_ANSWER",
+        "acceptedAnswers": [
+          "goAML",
+          "go AML"
+        ],
+        "options": []
+      },
+      {
+        "prompt": "If you suspect a customer, you should ask them to explain and tell them you will report it.",
+        "explanation": "Do not tip the customer off. Tell your Compliance Officer.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  }
+}

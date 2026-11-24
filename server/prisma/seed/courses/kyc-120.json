@@ -1,0 +1,270 @@
+{
+  "code": "KYC-120",
+  "title": "Customer Due Diligence for Exchange Houses",
+  "summary": "Know your customer: identification, due diligence and enhanced due diligence, the CBUAE thresholds for currency exchange and money transfer, politically exposed persons, and keeping profiles up to date.",
+  "category": "Due diligence",
+  "level": "INTERMEDIATE",
+  "status": "PUBLISHED",
+  "requiredForNewStaff": true,
+  "certValidityMonths": 12,
+  "instructorName": "Dr. Keiko Tanaka",
+  "instructorTitle": "Customer due diligence trainer (sample)",
+  "modules": [
+    {
+      "title": "Course lessons",
+      "lessons": [
+        {
+          "title": "Know your customer: CID, CDD and EDD",
+          "type": "READING",
+          "body": "## Three levels of checks\n\n- **CID (customer identification)**: who is this person? Check and copy an identity document.\n- **CDD (customer due diligence)**: understand the customer, the purpose of the transaction and the source of funds.\n- **EDD (enhanced due diligence)**: extra checks for higher-risk customers and transactions.\n\nThe core rule: **if the LEH cannot satisfy itself that it understands a customer, it must not accept that customer.**\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 7
+        },
+        {
+          "title": "Video: What is KYC and CDD?",
+          "type": "VIDEO",
+          "body": "## Before you watch\n\nA plain-language introduction to know your customer and customer due diligence. Compare what the speaker says with the three levels you just read about: identify, understand, and go further when risk is higher.\n\n## Look out for\n\n- What information is collected about the customer\n- Why the checks are matched to the level of risk\n- What happens when the customer cannot be understood\n\n## After watching\n\nAnswer the short quiz to move on.\n\n*This video is made by a third party and opens on YouTube. It is not produced by Data Mine Labs or the CBUAE, and it may describe rules from other countries. Where it differs from the CBUAE Rulebook or your own policy manual, follow those.*",
+          "videoUrl": "https://www.youtube.com/watch?v=LICXMLxAXxQ",
+          "durationMinutes": 6
+        },
+        {
+          "title": "Identifying customers and beneficial owners",
+          "type": "READING",
+          "body": "## Verifying identity\n\n- For UAE residents, the **Emirates ID** must be verified through the Federal Authority for Identity, Citizenship, Customs and Port Security online gateway, UAE Pass or another approved UAE Government solution. Keep a copy and the digital verification record.\n- For other documents, take a copy and certify it **\"Original Sighted and Verified\"**.\n- For **companies and other legal persons**, identify the people behind them: the **beneficial owners**, meaning those who ultimately own or control the business, and the authorised persons acting for it.\n\nDo not continue if the documents look altered, the details do not match, or the customer cannot explain who owns the business.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 8
+        },
+        {
+          "title": "Thresholds: which checks for which transaction",
+          "type": "READING",
+          "body": "## The CBUAE thresholds\n\n| Activity | Amount | Checks |\n|---|---|---|\n| Currency exchange, individual | AED 3,500 to under 35,000 | CID |\n| Currency exchange, individual | AED 35,000 to under 55,000 within 90 days | CID + CDD |\n| Currency exchange, individual | AED 55,000 or more within 90 days | CID + CDD + EDD |\n| Money transfer, individual | Under AED 55,000 | CID + CDD |\n| Money transfer, individual | AED 55,000 or more within 45 days | CID + CDD + EDD |\n| Company or other legal person | Any value | CDD + EDD |\n\nPolitically exposed persons (PEPs) and other high-risk customers need CDD and EDD at **any value**. Amounts are **added up** over the period, so several small deals can cross a threshold.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 9
+        },
+        {
+          "title": "Enhanced due diligence and PEPs",
+          "type": "READING",
+          "body": "## When more is needed\n\nApply **EDD** for:\n\n- **Politically exposed persons**, their family members and close associates, and customers whose beneficial owner is a PEP.\n- All **companies and legal arrangements**, and high-risk counterparties.\n- **Third-party transactions**, where one person transacts for another.\n- Customers from or dealing with **higher-risk countries**.\n- Any case that looks unusual for the customer.\n\nEDD means more information and closer scrutiny: the **source of funds**, and where needed the **source of wealth**, the reason for the transaction, and a decision by senior staff as set out in your LEH's procedures.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 7
+        },
+        {
+          "title": "Ongoing monitoring and keeping records",
+          "type": "READING",
+          "body": "## Due diligence does not stop at onboarding\n\n- Review customer profiles **at least annually**, or when the ID, trade licence or authorised person's ID expires, whichever comes first.\n- At review, **re-verify** the original ID, repeat CDD (and EDD where appropriate) and update the profile.\n- Check that transactions match what you know about the customer and their source of funds.\n- After a suspicious transaction report, review the profile and decide whether to raise the risk rating or end the relationship.\n- Keep all CDD records for **at least five years** from the end of the transaction or relationship, so any transaction can be reconstructed.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 7
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passPercent": 70,
+    "questionCount": 8,
+    "questions": [
+      {
+        "prompt": "What must an LEH do if it cannot satisfy itself that it understands a customer?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Accept them with a note",
+            "isCorrect": false
+          },
+          {
+            "label": "Not accept the customer",
+            "isCorrect": true
+          },
+          {
+            "label": "Ask a colleague to sign",
+            "isCorrect": false
+          },
+          {
+            "label": "Lower the limit",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "A money transfer of AED 40,000 for an individual needs:",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "CID only",
+            "isCorrect": false
+          },
+          {
+            "label": "CID and CDD",
+            "isCorrect": true
+          },
+          {
+            "label": "CID, CDD and EDD",
+            "isCorrect": false
+          },
+          {
+            "label": "No checks",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "A company customer sends AED 5,000. Which checks apply?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "CID only",
+            "isCorrect": false
+          },
+          {
+            "label": "CDD only",
+            "isCorrect": false
+          },
+          {
+            "label": "CDD and EDD",
+            "isCorrect": true
+          },
+          {
+            "label": "None, the amount is low",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "PEPs require EDD only above AED 55,000.",
+        "explanation": "PEPs need CDD and EDD at any value.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "prompt": "Which of these need EDD?",
+        "explanation": null,
+        "type": "MULTIPLE",
+        "options": [
+          {
+            "label": "A PEP",
+            "isCorrect": true
+          },
+          {
+            "label": "A third-party transaction",
+            "isCorrect": true
+          },
+          {
+            "label": "A legal person",
+            "isCorrect": true
+          },
+          {
+            "label": "A tourist exchanging AED 500",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "How often must customer profiles be reviewed, at a minimum?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Annually, or on ID expiry if sooner",
+            "isCorrect": true
+          },
+          {
+            "label": "Every five years",
+            "isCorrect": false
+          },
+          {
+            "label": "Only after a complaint",
+            "isCorrect": false
+          },
+          {
+            "label": "Every two years",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "How should a copy of a non-Emirates ID be certified?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Original Sighted and Verified",
+            "isCorrect": true
+          },
+          {
+            "label": "Seen by manager",
+            "isCorrect": false
+          },
+          {
+            "label": "Scanned",
+            "isCorrect": false
+          },
+          {
+            "label": "Stamped Received",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "A beneficial owner is the person who ultimately owns or controls a company.",
+        "explanation": null,
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": true
+          },
+          {
+            "label": "False",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "What do the letters PEP stand for? (three words)",
+        "explanation": "Politically exposed person.",
+        "type": "SHORT_ANSWER",
+        "acceptedAnswers": [
+          "politically exposed person",
+          "politically exposed persons"
+        ],
+        "options": []
+      },
+      {
+        "prompt": "What is the term for the person who ultimately owns or controls a company? (two words)",
+        "explanation": "The beneficial owner.",
+        "type": "SHORT_ANSWER",
+        "acceptedAnswers": [
+          "beneficial owner",
+          "ultimate beneficial owner"
+        ],
+        "options": []
+      },
+      {
+        "prompt": "Customer due diligence stops once the first transaction is complete.",
+        "explanation": "Customer profiles are reviewed and transactions monitored on an ongoing basis.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  }
+}

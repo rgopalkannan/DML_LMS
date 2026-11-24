@@ -1,0 +1,77 @@
+{
+  "code": "SCN-200",
+  "title": "Scenario Practice: Structuring and Tipping-Off",
+  "summary": "Make the call in two realistic counter situations, then check the steps and the thresholds. Learn by choosing, and see what each choice leads to.",
+  "category": "Practice",
+  "level": "INTERMEDIATE",
+  "status": "PUBLISHED",
+  "requiredForNewStaff": false,
+  "certValidityMonths": 12,
+  "instructorName": "Dr. Amara Okafor",
+  "instructorTitle": "Head of AML/CFT compliance (sample)",
+  "modules": [
+    {
+      "title": "Course lessons",
+      "lessons": [
+        {
+          "title": "What to watch for",
+          "type": "READING",
+          "body": "## Two things that catch people out\n\n**Structuring** means splitting a transaction into smaller ones to stay under a reporting or identification threshold. **Tipping off** means letting a customer know that a suspicious transaction report has been or may be made. Both can be offences.\n\nIn the next lesson you face a situation at the counter and choose what to do. Choices have consequences, so read each step carefully.\n\n*Training summary. Always follow the CBUAE Rulebook and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 5
+        },
+        {
+          "title": "At the counter: a large cash exchange",
+          "type": "READING",
+          "body": "You are on the counter. Choose what you would do. You can try again, and you finish this lesson by reaching a good outcome.",
+          "videoUrl": null,
+          "durationMinutes": 8
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passPercent": 70,
+    "questionCount": 2,
+    "questions": [
+      {
+        "prompt": "A customer offers to split a large amount into smaller transactions \"to keep it simple\". What is this called?",
+        "explanation": "Splitting to avoid a threshold is structuring.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Structuring",
+            "isCorrect": true
+          },
+          {
+            "label": "Netting",
+            "isCorrect": false
+          },
+          {
+            "label": "Rounding",
+            "isCorrect": false
+          },
+          {
+            "label": "Hedging",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "You may warn a customer that a suspicious transaction report is being filed.",
+        "explanation": "That is tipping off, which is an offence.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  }
+}

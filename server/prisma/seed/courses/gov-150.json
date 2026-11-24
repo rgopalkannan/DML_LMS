@@ -1,0 +1,261 @@
+{
+  "code": "GOV-150",
+  "title": "Governance, Risk Assessment and the Training Programme",
+  "summary": "For the Manager in Charge, Compliance Officers, Board Directors and Owners: roles, the enterprise risk assessment, policy approval, employee risk and running the training programme including professional development.",
+  "category": "Governance",
+  "level": "ADVANCED",
+  "status": "PUBLISHED",
+  "requiredForNewStaff": false,
+  "certValidityMonths": 12,
+  "instructorName": "Dr. Amara Okafor",
+  "instructorTitle": "Head of AML/CFT compliance (sample)",
+  "modules": [
+    {
+      "title": "Course lessons",
+      "lessons": [
+        {
+          "title": "Roles and responsibilities",
+          "type": "READING",
+          "body": "## Who is responsible for what\n\n- **Board or Owners**: approve the AML/CFT program and policies, set the risk appetite, give the Compliance Officer independence and resources.\n- **Manager in Charge**: ensures the program is applied in all branches.\n- **Compliance Officer**: runs the program day to day. The role is limited to AML/CFT tasks and **not combined with other functions**, to avoid conflict of interest.\n- **Alternate Compliance Officer**: covers absence.\n- **Compliance Committee**: gives additional oversight.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 8
+        },
+        {
+          "title": "Video: When to file a suspicious activity report under UAE AML law",
+          "type": "VIDEO",
+          "body": "## Before you watch\n\nBoards and owners must know when reports are due and who files them. Watch this short explainer, then check it against your own reporting procedure.\n\n## Look out for\n\n- What triggers a report\n- Who is responsible for filing it\n- The risk of delay or of tipping off\n\n## After watching\n\nAnswer the short quiz to move on.\n\n*This video is made by a third party and opens on YouTube. It is not produced by Data Mine Labs or the CBUAE, and it may describe rules from other countries. Where it differs from the CBUAE Rulebook or your own policy manual, follow those.*",
+          "videoUrl": "https://www.youtube.com/watch?v=gaoXdtmBYZQ",
+          "durationMinutes": 6
+        },
+        {
+          "title": "The enterprise risk assessment",
+          "type": "READING",
+          "body": "## Six steps\n\n1. Define the **scope**.\n2. **Identify** risks.\n3. Assess **inherent risk**.\n4. Evaluate **controls**.\n5. Work out **residual risk** (inherent risk minus controls).\n6. **Mitigate**.\n\nCover **customers, products and services, delivery channels, new technologies, geography, counterparties** and sanctions and proliferation financing exposure.\n\nSenior management must review and approve the **risk appetite statement, methodology and findings at least annually**, and after major changes. A risk assessment of a **new technology** is done **before** asking the CBUAE for approval.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 9
+        },
+        {
+          "title": "Policies and procedures",
+          "type": "READING",
+          "body": "## Written, approved, current\n\nPolicies and procedures are approved by the **Manager in Charge, the Compliance Officer and the Board** (or Owners and Partners if there is no Board) and are **reviewed at least annually**.\n\nThey must:\n\n- Apply consistently to **all branches and affiliates**.\n- Define **roles**.\n- Require **EDD** for all high-risk customers and transactions.\n- **Prohibit tipping off**.\n- Describe **record keeping** in enough detail.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 7
+        },
+        {
+          "title": "Managing employee risk",
+          "type": "READING",
+          "body": "## Know your employee\n\nPeople can be a weak point. The LEH applies **recruitment checks** proportionate to the role and verifies backgrounds before employment. It manages **conflicts of interest** of AML/CFT staff.\n\nWarning signs include:\n\n- A lifestyle that the salary does not explain.\n- Reluctance to take leave.\n- An employee linked to an **unusually large number or value** of transactions, who may be pressured or may have agreed to bend the rules.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 6
+        },
+        {
+          "title": "Running the training programme",
+          "type": "READING",
+          "body": "## A programme, not a one-off\n\n- **Onboarding** within 30 calendar days. No independent customer service until passed.\n- **Annual refresher** for staff who deal with customers, products or services.\n- **Event-driven** training after changes in law, CBUAE notices, internal policy, or audit and risk findings.\n- **Role-based content**: Board members focus on compliance culture, frontline staff on red flags.\n- **Periodic testing** and repeat sessions based on results.\n- **Compliance team**: per the CBUAE's continuing professional development requirement, at least **48 hours of external AML/CFT training every 12 months** (for example ACAMS-type certification, workshops or regulator sessions).\n- Keep the **training register** for inspection.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 8
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passPercent": 70,
+    "questionCount": 8,
+    "questions": [
+      {
+        "prompt": "Which people must the training requirement cover?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "All employees, including management, Board and Owners",
+            "isCorrect": true
+          },
+          {
+            "label": "Only cashiers",
+            "isCorrect": false
+          },
+          {
+            "label": "Only new staff",
+            "isCorrect": false
+          },
+          {
+            "label": "Only the Compliance Officer",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "The Compliance Officer role should be:",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Limited to AML/CFT tasks",
+            "isCorrect": true
+          },
+          {
+            "label": "Combined with sales",
+            "isCorrect": false
+          },
+          {
+            "label": "Held by a cashier",
+            "isCorrect": false
+          },
+          {
+            "label": "Optional",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Policies must be reviewed at least annually.",
+        "explanation": null,
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": true
+          },
+          {
+            "label": "False",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "A new technology must have a risk assessment:",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Before seeking CBUAE approval to launch",
+            "isCorrect": true
+          },
+          {
+            "label": "After launch",
+            "isCorrect": false
+          },
+          {
+            "label": "Never",
+            "isCorrect": false
+          },
+          {
+            "label": "Only if it fails",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "External AML/CFT training for compliance staff, per the CPD requirement:",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "48 hours every 12 months",
+            "isCorrect": true
+          },
+          {
+            "label": "4 hours every five years",
+            "isCorrect": false
+          },
+          {
+            "label": "None",
+            "isCorrect": false
+          },
+          {
+            "label": "Only at hire",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Which are warning signs in employee risk?",
+        "explanation": null,
+        "type": "MULTIPLE",
+        "options": [
+          {
+            "label": "Lifestyle not matching salary",
+            "isCorrect": true
+          },
+          {
+            "label": "Reluctance to take leave",
+            "isCorrect": true
+          },
+          {
+            "label": "An unusually large number of transactions",
+            "isCorrect": true
+          },
+          {
+            "label": "Wearing the uniform",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Training should be tailored to the role.",
+        "explanation": null,
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": true
+          },
+          {
+            "label": "False",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Who approves the AML/CFT policies?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Manager in Charge, Compliance Officer and Board",
+            "isCorrect": true
+          },
+          {
+            "label": "A cashier",
+            "isCorrect": false
+          },
+          {
+            "label": "A customer",
+            "isCorrect": false
+          },
+          {
+            "label": "No one",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Within how many days of joining must a new employee complete AML/CFT training? (number)",
+        "explanation": "Within 30 calendar days.",
+        "type": "SHORT_ANSWER",
+        "acceptedAnswers": [
+          "30",
+          "30 days",
+          "thirty"
+        ],
+        "options": []
+      },
+      {
+        "prompt": "Only the Compliance Officer needs AML/CFT training.",
+        "explanation": "All employees, including Board Directors and Owners, need it.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  }
+}

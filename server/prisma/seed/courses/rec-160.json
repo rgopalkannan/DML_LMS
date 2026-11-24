@@ -1,0 +1,251 @@
+{
+  "code": "REC-160",
+  "title": "Record Keeping, Audit and Inspection Readiness",
+  "summary": "What records to keep and for how long, how the training register works, how independent audit tests the program, and how to be ready for an unannounced CBUAE inspection.",
+  "category": "Governance",
+  "level": "BEGINNER",
+  "status": "PUBLISHED",
+  "requiredForNewStaff": false,
+  "certValidityMonths": 12,
+  "instructorName": "Jonas Lindqvist",
+  "instructorTitle": "Internal audit and records lead (sample)",
+  "modules": [
+    {
+      "title": "Course lessons",
+      "lessons": [
+        {
+          "title": "What to keep, and for how long",
+          "type": "READING",
+          "body": "## Five years, at least\n\nKeep, in a form that can be searched:\n\n- Customer identification and due diligence records, including the **sender and receiver**.\n- Details of **every transaction**.\n- Correspondence and account files.\n- Risk assessments and the measures taken.\n- **Suspicious transaction and activity reports** and the analysis behind them.\n\nThe period is **at least five years**, counted from the completion of the transaction, the end of the relationship, the end of a CBUAE inspection or a final court judgment, depending on the case.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 6
+        },
+        {
+          "title": "Records you can use",
+          "type": "READING",
+          "body": "## Organised, not just stored\n\nRecords must let the LEH **analyse data, trace transactions and reconstruct** any single transaction as evidence.\n\nMake them available to the competent authorities **immediately on request**.\n\nGood habits:\n\n- One standard file layout per customer.\n- Write the **reason** for every decision.\n- Never alter or backdate a record. Add a dated correction instead.",
+          "videoUrl": null,
+          "durationMinutes": 6
+        },
+        {
+          "title": "Video: Transaction monitoring explained",
+          "type": "VIDEO",
+          "body": "## Before you watch\n\nGood records make monitoring possible. This video shows how rules and alerts are used to watch transactions, and why the evidence behind each alert must be kept.\n\n## Look out for\n\n- How rules create alerts\n- Why every alert needs a recorded decision\n- What an examiner would want to see afterwards\n\n## After watching\n\nAnswer the short quiz to move on.\n\n*This video is made by a third party and opens on YouTube. It is not produced by Data Mine Labs or the CBUAE, and it may describe rules from other countries. Where it differs from the CBUAE Rulebook or your own policy manual, follow those.*",
+          "videoUrl": "https://www.youtube.com/watch?v=hj2tckwHZ8M",
+          "durationMinutes": 8
+        },
+        {
+          "title": "The training register",
+          "type": "READING",
+          "body": "## Proof of training\n\nThe LEH keeps a **central AML/CFT training register**. For each employee it records:\n\n- The **training history**.\n- **Dates** and **durations**.\n- **Assessment scores**.\n\nThis is how an LEH shows it met the 30-day onboarding rule, the annual refresher and any event-driven training. Examiners can ask for it on arrival, so keep it current.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 6
+        },
+        {
+          "title": "Independent audit",
+          "type": "READING",
+          "body": "## Checking the checkers\n\n- **Internal audit** regularly audits the Compliance Officer's function. It must be independent of the functions it audits and report to the Board or Owners.\n- **External auditors** perform **agreed-upon procedures** on the AML/CFT compliance function **every year**.\n\nFindings feed back into the risk assessment and into the next round of training.\n\n*Training summary of the CBUAE Rulebook. Always check the current Rulebook text and your own policy manual.*",
+          "videoUrl": null,
+          "durationMinutes": 7
+        },
+        {
+          "title": "Ready for an inspection",
+          "type": "READING",
+          "body": "## Unannounced visits\n\nCBUAE examiners may arrive without notice. Be ready to show:\n\n1. The written AML/CFT program and policies, with approval dates.\n2. The latest risk assessment.\n3. The training register.\n4. Samples of customer files and transaction records.\n5. Alert and STR/SAR logs (without disclosing the content of reports to anyone not entitled).\n6. Audit reports and how findings were fixed.\n\nBe honest, cooperate, and keep a log of what was provided.",
+          "videoUrl": null,
+          "durationMinutes": 6
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "passPercent": 70,
+    "questionCount": 8,
+    "questions": [
+      {
+        "prompt": "Which of these must the training register show for each employee?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Dates, durations and assessment scores",
+            "isCorrect": true
+          },
+          {
+            "label": "Only attendance",
+            "isCorrect": false
+          },
+          {
+            "label": "Only a signature",
+            "isCorrect": false
+          },
+          {
+            "label": "Salary",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "How often do external auditors perform agreed-upon procedures on the AML/CFT function?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Annually",
+            "isCorrect": true
+          },
+          {
+            "label": "Every five years",
+            "isCorrect": false
+          },
+          {
+            "label": "Never",
+            "isCorrect": false
+          },
+          {
+            "label": "Only after a fine",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Records must be made available to competent authorities immediately on request.",
+        "explanation": null,
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": true
+          },
+          {
+            "label": "False",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Which records must be kept?",
+        "explanation": null,
+        "type": "MULTIPLE",
+        "options": [
+          {
+            "label": "Customer due diligence",
+            "isCorrect": true
+          },
+          {
+            "label": "Transaction details",
+            "isCorrect": true
+          },
+          {
+            "label": "STR/SAR analysis",
+            "isCorrect": true
+          },
+          {
+            "label": "Staff lunch menus",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "Who should internal audit report to?",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "The Board or Owners",
+            "isCorrect": true
+          },
+          {
+            "label": "The cashiers",
+            "isCorrect": false
+          },
+          {
+            "label": "The customers",
+            "isCorrect": false
+          },
+          {
+            "label": "No one",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "An inspection by the CBUAE is always announced a month in advance.",
+        "explanation": "Examiners can visit without notice.",
+        "type": "TRUE_FALSE",
+        "options": [
+          {
+            "label": "True",
+            "isCorrect": false
+          },
+          {
+            "label": "False",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "prompt": "Records should allow the LEH to:",
+        "explanation": null,
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "Reconstruct individual transactions",
+            "isCorrect": true
+          },
+          {
+            "label": "Hide transactions",
+            "isCorrect": false
+          },
+          {
+            "label": "Delete old customers",
+            "isCorrect": false
+          },
+          {
+            "label": "Skip audits",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "prompt": "For at least how many years must AML/CFT records be kept? (number)",
+        "explanation": "At least five years.",
+        "type": "SHORT_ANSWER",
+        "acceptedAnswers": [
+          "5",
+          "five",
+          "5 years",
+          "five years"
+        ],
+        "options": []
+      },
+      {
+        "prompt": "What should the training register show for each employee?",
+        "explanation": "It tracks history, dates, durations and scores.",
+        "type": "MULTIPLE",
+        "options": [
+          {
+            "label": "Training history",
+            "isCorrect": true
+          },
+          {
+            "label": "Dates",
+            "isCorrect": true
+          },
+          {
+            "label": "Durations",
+            "isCorrect": true
+          },
+          {
+            "label": "Assessment scores",
+            "isCorrect": true
+          },
+          {
+            "label": "Favourite colour",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+}
