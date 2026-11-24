@@ -1,4 +1,5 @@
 import { type INestApplication, ValidationPipe } from '@nestjs/common';
+import { type Express } from 'express';
 import helmet from 'helmet';
 import { APP_CONFIG, type AppConfig } from './config/app-config';
 
@@ -7,6 +8,8 @@ export const API_PREFIX = 'api/v1';
 /** Shared by main.ts and the integration tests, so tests run the same security and validation setup. */
 export function configureApp(app: INestApplication): void {
   const config = app.get<AppConfig>(APP_CONFIG);
+  if (config.trustProxyHops > 0)
+    (app.getHttpAdapter().getInstance() as Express).set('trust proxy', config.trustProxyHops);
   app.setGlobalPrefix(API_PREFIX);
   app.use(helmet());
   app.enableCors({

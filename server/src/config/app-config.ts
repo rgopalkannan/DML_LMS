@@ -9,6 +9,8 @@ export interface AppConfig {
   rateLimitPerMinute: number;
   /** Public web address of the app, printed on certificates for verification. */
   publicAppUrl: string;
+  /** Reverse proxies in front of the API (nginx in Docker), so rate limits see the real client address. */
+  trustProxyHops: number;
 }
 
 export const APP_CONFIG = Symbol('APP_CONFIG');
@@ -47,6 +49,7 @@ export function loadAppConfig(env: NodeJS.ProcessEnv = process.env): AppConfig {
     jwtExpiresIn: env.JWT_EXPIRES_IN ?? '1h',
     corsOrigins,
     rateLimitPerMinute: positiveInt(env.RATE_LIMIT_PER_MINUTE, 120, 'RATE_LIMIT_PER_MINUTE'),
+    trustProxyHops: env.TRUST_PROXY_HOPS ? positiveInt(env.TRUST_PROXY_HOPS, 1, 'TRUST_PROXY_HOPS') : 0,
     publicAppUrl: (env.PUBLIC_APP_URL ?? 'http://localhost:5173').replace(/\/+$/, '')
   };
 }

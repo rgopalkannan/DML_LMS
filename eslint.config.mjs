@@ -1,5 +1,7 @@
 import js from '@eslint/js';
 import globals from 'globals';
+import jsxA11y from 'eslint-plugin-jsx-a11y';
+import reactHooks from 'eslint-plugin-react-hooks';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
@@ -20,6 +22,12 @@ export default tseslint.config(
     }
   },
   {
+    files: ['client/src/**/*.{ts,tsx}'],
+    plugins: { 'react-hooks': reactHooks, 'jsx-a11y': jsxA11y },
+    languageOptions: { globals: globals.browser },
+    rules: { ...reactHooks.configs.recommended.rules, ...jsxA11y.flatConfigs.recommended.rules }
+  },
+  {
     /* NestJS injects by constructor parameter types, which an `import type` erases at runtime. */
     files: ['server/**/*.ts'],
     rules: { '@typescript-eslint/consistent-type-imports': 'off' }
@@ -33,8 +41,8 @@ export default tseslint.config(
     }
   },
   {
-    files: ['**/*.spec.ts', '**/*.test.ts', '**/*.test.tsx', 'server/test/**/*.ts'],
+    files: ['**/*.spec.ts', '**/*.test.ts', '**/*.test.tsx', 'server/test/**/*.ts', 'client/src/test/**/*.tsx'],
     rules: { '@typescript-eslint/explicit-function-return-type': 'off' }
   },
-  { files: ['tools/**/*.mjs'], languageOptions: { globals: globals.node } }
+  { files: ['tools/**/*.mjs', 'client/e2e/**/*.mjs'], languageOptions: { globals: globals.node } }
 );
